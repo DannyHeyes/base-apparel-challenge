@@ -101,16 +101,17 @@ body {
   background: linear-gradient(135deg, #f8bfbf, #ee8c8c);
   border: none;
   border-radius: 25px;
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 2rem;
-  line-height: 1.7;
-  font-weight: 300;
-  text-align: left;
-  color: white;
+  align-items: center;
+}
+
+#submitBtn img {
+  padding-top: 5px;
+  padding-left: 5px;
 }
 
 /* footer style */
 .attribution {
+  margin-top: 10%;
   font-size: 11px;
   text-align: center;
   width: 100%;
