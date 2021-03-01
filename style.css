@@ -73,13 +73,14 @@ body {
 .button {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   margin-top: 10%;
 }
 
 #emailInput {
-  width: 80%;
+  width: 75%;
   position: relative;
-  left: 10%;
+  left: 12%;
   background-color: inherit;
   line-height: 3;
   text-indent: 5%;
@@ -102,6 +103,7 @@ body {
   border: none;
   border-radius: 25px;
   align-items: center;
+  box-shadow: 0 52px 81px -24px rgba(0, 0, 0, 0.3);
 }
 
 #submitBtn img {
@@ -109,7 +111,7 @@ body {
   padding-left: 5px;
 }
 
-#submitBtn:hover{
+#submitBtn:hover {
   cursor: pointer;
 }
 
@@ -118,7 +120,15 @@ body {
   width: 20px;
   align-self: center;
   position: relative;
-  right: 8%;
+  right: 10%;
+  visibility: hidden;
+}
+
+.errorMessage {
+  font-size: 0.8rem;
+  color: #ce9797;
+  position: relative;
+  left: 20%;
   visibility: hidden;
 }
 
@@ -135,7 +145,7 @@ body {
 }
 
 /* Tablet Viewport Styling  */
-@media screen and (min-width: 580px) and (max-width: 899px){
+@media screen and (min-width: 580px) and (max-width: 899px) {
   .logo img {
     width: 20%;
   }
@@ -150,38 +160,82 @@ body {
     font-size: 1.3rem;
   }
 
-  #emailInput{
+  #emailInput {
     width: 70%;
     left: 15%;
     line-height: 4;
   }
 
-  #submitBtn{
+  #submitBtn {
     right: 0;
     border-radius: 30px;
   }
 }
 
 /* Laptop Viewport */
-
 @media screen and (min-width: 900px) {
-
   .wrapper {
     flex-direction: row;
     overflow: hidden;
+    background: url(' images/bg-pattern-desktop.svg')
   }
 
+  /* Logo Styling  */
   .logo {
     position: absolute;
     top: 5%;
-  }
-  .mobile-image {
-    display: none;
+    width: 55%;
+    padding: 0;
   }
 
+  .logo img {
+    width: 20%;
+    padding-left: 10%;
+  }
+
+  /* text styling  */
+  .heading {
+    font-size: 2.2rem;
+    text-align: left;
+    left: 10%;
+  }
+
+  .content {
+    font-size: 1.5rem;
+    width: 70%;
+    left: 10%;
+  }
+
+  .content p {
+    text-align: left;
+  }
+
+  /* email input styling  */
+
+  .button{
+    width: 80%;
+  }
+
+  #emailInput{
+    width: 80%;
+    left: 10%;
+    line-height: 3.5;
+  }
+
+  .errorMessage{
+    left: 15%;
+  }
+
+  /* image styling  */
   .desktop-image {
     display: block;
   }
 
+  .desktop-image img {
+    min-height: 100vh;
+  }
 
+  .mobile-image {
+    display: none;
+  }
 }
