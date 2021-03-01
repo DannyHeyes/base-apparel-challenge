@@ -223,9 +223,13 @@ body {
   }
 
   #emailInput{
-    width: 80%;
-    left: 10%;
+    width: 75%;
+    left: 12%;
     line-height: 3.5;
+  }
+
+  #submitBtn{
+    right: 5%;
   }
 
   .errorMessage{
