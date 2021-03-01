@@ -194,6 +194,10 @@ body {
   }
 
   /* text styling  */
+
+  .text {
+    margin-top: 5%;
+  }
   .heading {
     font-size: 2.2rem;
     text-align: left;
@@ -204,6 +208,7 @@ body {
     font-size: 1.5rem;
     width: 70%;
     left: 10%;
+    margin-top: 5%;
   }
 
   .content p {
@@ -214,6 +219,7 @@ body {
 
   .button{
     width: 80%;
+    margin-top: 8%;
   }
 
   #emailInput{
