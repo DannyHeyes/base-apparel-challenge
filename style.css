@@ -91,6 +91,10 @@ body {
   opacity: 0.7;
 }
 
+#emailInput:focus{
+outline: none;
+}
+
 ::placeholder {
   color: #ce9797;
 }
@@ -115,6 +119,10 @@ body {
   cursor: pointer;
 }
 
+#submitBtn:focus {
+  outline: none;
+}
+
 #errorIcon {
   height: 20px;
   width: 20px;
@@ -126,7 +134,7 @@ body {
 
 .errorMessage {
   font-size: 0.8rem;
-  color: #ce9797;
+  color: red;
   position: relative;
   left: 20%;
   visibility: hidden;
