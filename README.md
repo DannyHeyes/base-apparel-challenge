@@ -1,6 +1,6 @@
 Base Apparel Challenge from Frontend Mentor. 
 
-Designs screenshots for mobile and desktop viewport. 
+Design screenshots for mobile and desktop viewport. 
 
 Desktop: 
 ![desktop-design](https://user-images.githubusercontent.com/63042730/109642331-2056e600-7b53-11eb-883d-17f02e323a5b.jpg)
@@ -12,4 +12,4 @@ a style guide was also included in the starter files which included font-family 
 For this challenge, I had to make the website responsive, and made a decision to make the tablet viewport look the same as mobile viewport. 
 This site was built with HTLM, CSS and vanilla JavaScript. 
 
-The form does not sumbit completely, as there is no destination for the submit. 
+The form does not sumbit completely, as there is no destination. 
