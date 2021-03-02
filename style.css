@@ -77,7 +77,7 @@ body {
   margin-top: 10%;
 }
 
-#emailInput {
+.emailInput {
   width: 75%;
   position: relative;
   left: 12%;
@@ -91,7 +91,7 @@ body {
   opacity: 0.7;
 }
 
-#emailInput:focus{
+.emailInput:focus{
 outline: none;
 }
 
@@ -103,27 +103,25 @@ outline: none;
   position: relative;
   right: 8%;
   width: 15%;
-  background: linear-gradient(135deg, #f8bfbf, #ee8c8c);
+  background:url(images/icon-arrow.svg) no-repeat center center,
+   linear-gradient(135deg, #f8bfbf, #ee8c8c);
   border: none;
   border-radius: 25px;
   align-items: center;
   box-shadow: 0 52px 81px -24px rgba(0, 0, 0, 0.3);
 }
 
-#submitBtn img {
-  padding-top: 5px;
-  padding-left: 5px;
-}
 
 #submitBtn:hover {
   cursor: pointer;
+  
 }
 
 #submitBtn:focus {
   outline: none;
 }
 
-#errorIcon {
+.errorIcon {
   height: 20px;
   width: 20px;
   align-self: center;
@@ -138,6 +136,11 @@ outline: none;
   position: relative;
   left: 20%;
   visibility: hidden;
+}
+
+.visible {
+  visibility: visible;
+  border-color: red;
 }
 
 /* footer style */

@@ -40,10 +40,10 @@
           Add your email below to stay up-to-date with announcements and our launch deals.</p>
       </div>
 
-      <form class="button" novalidate onsubmit="return validateEmail()">
-        <input id="emailInput" type="email" name="email" placeholder="Email Address">
-        <img id="errorIcon" src="images/icon-error.svg" alt="">
-        <button id="submitBtn" type="submit" name="button"><img src="images/icon-arrow.svg" alt=""></button>
+      <form name="form1" class="button" novalidate method="post">
+        <input class="emailInput" type="text" name="email" placeholder="Email Address">
+        <img class="errorIcon" src="images/icon-error.svg" alt="">
+        <input id="submitBtn" type="submit" value=''>
         <p class="errorMessage">Please provide a valid email</p>
       </form>
 
